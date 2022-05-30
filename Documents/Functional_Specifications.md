@@ -80,13 +80,18 @@ The users speak next to the board equipped with a microphone and the Arduino boa
 
 ## Requirements
 
-We have three basic filters the echo, the flange effect and the reverberation also we have a filter to modify the wave amplitude by a fixed amount. Firstly this modification you need to have a parameter for the amplitude.
-To make the overdriven you need a loop for to make the effect on all of the sound.
-An overdrive is the name given to an audio effect that aims to recreate the distortion of an electric guitar amplifier pushed to its gain limits. It usually has less gain than distortion.
-An echo is when the sound was repeat less loud.
-A flange is when the wave was repeat with a late of 20 milliseconds but this late was catch up and this effect was repeat during all of the sound.
+We will implement an autonomous device that will be comprised of some sort of microphone to record sound, a 
+microcomputer such as a Arduino Nano 33 BLE to process the data and LEDs to output the result.
+This architecture presents multiple huge advantages: it is very affordable and can therefore be installed in every
+room, and the lack of mass storage and network capabilities prevents any long-term storage and unwanted use
+of the collected data.
 
-In sound synthesis, an envelope is generated for each note, to describe the evolution of the volume within the note. Its shape has an important impact on the style of instrument being synthesised.A chord is a superposition of at least three different notes. Chords can be played by a polyphonic instrument, such as the piano, organ, guitar, etc., or by three monodic instruments
+The bulk of the language identification process will be done using a Neural Network. A Neural Network is a way
+for a computer to “learn” how to process input data and output a result depending trough computation using a
+set of weights that are updated over time. The advantages this method presents is the ability to train the network
+beforehand in a computation heavy process that can be done on a powerful computer then, once trained, using
+the Neural Network is really cheap computation wise and therefore can be done on a small computer. Two ways
+to use the device will be implemented on the device: single time use, and continuous mode.
 
 ## Configuration
 
@@ -95,4 +100,5 @@ You also electricity to powered the arduino board.
 
 ## Non-functional requirements
 
-If we have the time it possible to create a User Interface for the synthesizer that is possible to show immediately the waves and where it possible with some buttons to add an effect or change the wave with different parameters. Add a compatibility with android and IOS and a keyboard to play a sound or a music directly.
+It is possible to add an LCD screen for the users with which the users could see the accuracy of the AI.
+For example the user speaks and the LCD could indicate whether it is English or French without the LED and the LCD would display how accurately the language spoken is English or French.
