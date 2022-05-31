@@ -16,11 +16,6 @@
   - [b. Test Plan](#b-test-plan)
 - [8. End Matter](#8-end-matter)
   - [a. References](#a-references)
-  
-  - [- A function to play the waveform directly without saving it to disk](#--a-function-to-play-the-waveform-directly-without-saving-it-to-disk)
-- [4. End Matter](#4-end-matter)
-  - [a. References](#a-references)
-  
 
 </details>
 
@@ -42,7 +37,7 @@ This Project is create by a team composed of
 
 ## a. Overview
 
-For this project we need to programm in **Python** for the beginning for ->
+For this project we need to programm in **Python** for the beginning for :
 
 - Recover the dataset with mozilla Common voice
 - Extract the data
@@ -73,21 +68,20 @@ This project is based on the AI so they have many words that people who arent't 
 
 ## d. Out of Scope
 
-For this project we don't need to do a music just the tool to make it so don't waste your time to do a music. Then it's just a library don't make an UI or something graphical.
+For this project we can make an another model for three languages for example French/English/German and we can make the same system for the LEDs Red for english Green for french and blue for German
 
 ## e. Future Goals
 
 For the future version we can add
 
-- more effect like the loops effect
-- the octave of each note
-- samples already created
+- a raspberryPi to have more place
+- a LCD screen to have the informations of accuracy and which language is on it.
 
 # 3. Solution
 
 ## a. Existing Solution
 
-there is a solution on github that allows you to make an AI similar to the one you want to obtain because it does the same thing with different languages because it allows you to do it between English and German
+there is a solution on github that allows to make a similar AI to the one we want to get because it does the same thing with different languages, it allows to do it between English and German.
 
 ## b. Test Plan
 
@@ -98,8 +92,5 @@ For this project we opted for the Google Colab to test and train the model and a
 ## a. References
 
 https://colab.research.google.com
-https://github.com/SFML/SFML.Net<br>
-https://fslab.org/XPlot/<br>
-https://fsharp.org/docs/<br>
-https://docs.microsoft.com/en-us/dotnet/fsharp/language-reference/
-
+https://github.com/fraunhofer-iais/language-recognition<br>
+http://docs.arduino.cc/tutorials/nano-33-ble-sense/get-started-with-machine-learning
