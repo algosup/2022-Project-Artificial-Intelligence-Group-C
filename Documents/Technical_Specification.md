@@ -28,7 +28,7 @@
 
 The Project name is **Project Artificial Intelligence**
 
-This Project is create by a team composed of
+This Project is created by a team composed of
 
 - Mathieu Chaput
 - Maxime Pages
@@ -42,53 +42,53 @@ This Project is create by a team composed of
 
 For this project we need to programm in **Python** for the beginning for :
 
-- Recover the dataset with mozilla Common voice
-- Extract the data
-- Separate the data between train and test
-- Transforme audio into images
-- Create a model
-- Save the model create before to import it after
+- Recovering the dataset with mozilla Common voice
+- Extracting the data
+- Separating the data between train and test
+- Transforming audio into images
+- Creating a model
+- Saving the model create before importing it 
 
-After we have an arduino Board for this part we need to programm in **C++** to put the model in the board
+After that, we have an Arduino Board that we need to programm in **C++** to put the model in the board.
 With this board we have some LEDs to indicate the speech spoken.
 
 ### b. Terminology
 
-This project is based on the AI so they have many words that people who arent't developper don't know. This misunderstanding can block you for the developping so we explain some technical terms
+This project is based on the AI so they are many words that people who arent't developper don't know. This misunderstanding can block you for the developping so we are explaining some technical terms
 | Words | Meaning |
 |-|-|
-|AI| The Artificial intelligence the is theory and development of computer systems able to perform tasks normally requiring human intelligence, such as visual perception, speech recognition, decision-making, and translation between languages.
+|AI| The Artificial intelligence is the theory and development of computer systems able to perform tasks normally requiring human intelligence, such as visual perception, speech recognition, decision-making, and translation between languages.
 
 ### c. Product and Technical Requirements
 
 | Technical | Using |
 |-|-|
-|Python| We code in Python because it's the language that we learning at this time. |
+|Python| We code in Python because it's the language that we were learning at this time. |
 |OS| This library can be used on Mac and Windows as we have these two different operating systems in our groups.|
-|Google Colab |We use Google Colab for this project because it's less complicated to work on it in Python with the model |
-|Arduino |We use Arduino to display with LEDs the result when we speak |
-|Arduino Nano 33 BLE Sense |It's the type of arduino board we use to make this project |
+|Google Colab |We use Google Colab for this project because it's less complicated to work on it in Python with the model. |
+|Arduino |We use Arduino to display with LEDs the result when we speak. |
+|Arduino Nano 33 BLE Sense |It's the type of arduino board we use to make this project. |
 
 ### d. Out of Scope
 
-For this project we can make an another model for three languages for example French/English/German and we can make the same system for the LEDs Red for english Green for french and blue for German
+For this project we can make an another model for three languages for example French/English/German and we can make the same system for the LEDs: Red for English, Green for French, and Blue for German.
 
 ## e. Future Goals
 
 For the future version we can add
 
-- a raspberryPi to have more place
-- a LCD screen to have the informations of accuracy and which language is on it.
+- a raspberryPi to have more place.
+- a LCD screen to have the informations of accuracy and which language is detected.
 
 ## 3. Solution
 
 ### a. Existing Solution
 
-there is a solution on github that allows to make a similar AI to the one we want to get because it does the same thing with different languages, it allows to do it between English and German.
+There is a solution on github that allows us to make a similar AI to the one we want to get. Indeed, it does the same thing with different languages, and allows us to detect between English and German.
 
 ### b. Test Plan
 
-For this project we opted for the Google Colab to test and train the model and after we test it with the arduino board
+For this project, we opted for the Google Colab to train and test the model, before testing it with the arduino board.
 
 ## 8. End Matter
 
